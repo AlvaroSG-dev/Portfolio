@@ -115,51 +115,12 @@ h1, h2, h3, .nav-link:hover, .navbar-brand {
     border-bottom: 1px solid rgba(0, 224, 255, 0.1);
 }
 
-/* Sección Testimonios */
-#carouselTestimonios {
-  padding: 40px;
-  border-radius: 20px;
-}
-
-section.bg-dark.text-white.py-5 {
-  /* Sustituimos el bg-dark de Bootstrap con este degradado */
-    background: linear-gradient(150deg, #020a13 0%, #0a2544 50%, #020a13 100%) !important;
-    border-top: 1px solid rgba(0, 224, 255, 0.1);
-}
-
-/* Opcional: Añade un brillo suave en la esquina para dar personalidad */
-section.bg-dark.text-white.py-5::after {
-  content: "";
-  position: absolute;
-  top: -50%;
-  right: -10%;
-  width: 300px;
-  height: 300px;
-  background: rgba(0, 224, 255, 0.05);
-  filter: blur(80px);
-  border-radius: 50%;
-}
-
-/* Color neón para los nombres en testimonios */
+/* Color neón para textos destacados */
 .text-neon {
   color: #00e0ff;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 0.9rem;
-}
-
-/* Estilo para las citas */
-.carousel-item p {
-  font-style: italic;
-  max-width: 700px;
-  margin: 0 auto 20px;
-  color: #d1d9e6;
-}
-
-/* Asegurar que las flechas del carrusel se vean bien */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  filter: drop-shadow(0 0 5px rgba(0, 224, 255, 0.5));
 }
 
 /* Estilo específico para las tarjetas de proyectos */
@@ -226,19 +187,3 @@ section.bg-dark.text-white.py-5::after {
   border-color: #ffffff;
 }
 
-/* Estilos para la sección de artículos */
-.article-link {
-  text-decoration: none;
-  color: #b0c4de; /* Color acorde a tus tarjetas de proyecto */
-  transition: color 0.3s ease, padding-left 0.3s ease;
-  font-size: 1.1rem;
-}
-
-.article-link:hover {
-  color: #00e0ff; /* Tu azul neón */
-  padding-left: 10px; /* Pequeño desplazamiento al hacer hover */
-}
-
-#articulos .list-group-item:hover {
-  background-color: rgba(0, 224, 255, 0.05) !important;
-}
